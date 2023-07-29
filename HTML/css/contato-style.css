@@ -1,0 +1,48 @@
+h1 {
+	font-size: 30px;
+	padding: 5px;
+}
+
+p {
+	font-size: 25px;
+	padding: 5px;
+}
+
+form div {
+	background: #fff;
+	border: 0;
+	border-block: 1px solid #44444F;
+	margin: 1rem 0.5rem;
+	padding: 2rem;	
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.8rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #44444F;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"],textarea, label {
+	display: block;
+	width: 100%;
+}
+
+article {
+	float: left;
+	padding: 7px;
+	width: 70%;
+	background-color: #f1f1f1;
+}
+
+section::after {
+	background: #ccc;
+	content: "";
+	display: table;
+	clear: both;
+} 

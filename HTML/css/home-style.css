@@ -1,0 +1,27 @@
+h3 {
+    font-size: 25px;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 8px;
+}
+
+p {
+    font-size: 20px;
+}
+
+article {
+	float: left;
+	padding: 7px;
+	width: 80%;
+	background-color: #f1f1f1;
+}
+
+section::after {
+	background: #ccc;
+	content: "";
+	display: table;
+	clear: both;
+} 
